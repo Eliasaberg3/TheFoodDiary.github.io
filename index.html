@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>A Visionary Food Journey</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+  <h1 class="brand">A Visionary Food Journey</h1>
+  <p class="tagline">Timeless recipes with a gentle French touch</p>
+      <nav class="nav">
+        <input id="search" class="search" type="search" placeholder="Search recipes, e.g. 'ratatouille'" aria-label="Search recipes">
+        <div class="lang-select">
+          <label for="langSelect" class="visually-hidden">Language</label>
+          <select id="langSelect" aria-label="Choose language">
+            <option value="en">EN</option>
+            <option value="sv">SV</option>
+          </select>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-inner">
+        <h2 id="hero-title">Recipes to savor</h2>
+        <p id="hero-sub">Classic and seasonal dishes crafted simply. Browse, search and click a recipe for details.</p>
+      </div>
+    </section>
+
+    <section id="recipes" class="recipes-grid" aria-live="polite">
+      <!-- recipe cards inserted by JS -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> La Cuisine — Vintage recipe collection</p>
+    </div>
+  </footer>
+
+  <!-- Modal for recipe details -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button id="closeModal" class="close">×</button>
+    <h3 id="modal-title"></h3>
+    <p class="meta"></p>
+    <img id="modal-img" class="modal-img" src="" alt="">
+    <h4 id="modal-ingredients-label">Ingredienser</h4>
+    <ul id="modal-ingredients"></ul>
+    <h4 id="modal-steps-label">Steg</h4>
+    <ol id="modal-steps"></ol>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
