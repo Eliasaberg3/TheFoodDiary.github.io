@@ -20,14 +20,14 @@ const recipes = [
     ]
   },
   {
-    id: 'tarte-tatin',
-    title: 'Tarte Tatin',
-    subtitle: 'Upside-down caramel apple tart',
-  img: 'assets/tarte-tatin.svg',
-    time: '1h 5m',
-    servings: '6',
-    ingredients: ['6 apples (firm)', '100g butter', '150g sugar', '1 sheet puff pastry', 'vanilla ice cream (optional)'],
-    steps: ['Caramelize sugar and butter in a skillet.', 'Arrange cored apple quarters in caramel.', 'Cover with puff pastry and bake 30-35 minutes.', 'Invert onto a plate while warm.']
+    id: 'pasta-arrabbiata',
+    title: 'Pasta Arrabbiata',
+    subtitle: '',
+  img: 'assets/arrabiata.jpg',
+    time: '30 min',
+    servings: '2',
+    ingredients: ['400 g pasta', 'Tomatpuré', 'chili torkad eller färsk', 'vitlök', 'Parmesanost', 'Vispgrädde', 'Olivolja'],
+    steps: ['Fräs vitlök och chili i olivolja.', 'Tillsätt tomatpuré och låt fräsa. Under tiden, koka upp pastavatten och lägg i pastan', 'Tillsätt vitt vin till de stekta ingredienserna och låt reducera. Tillsätt därefter en skvätt grädde.', ' Blanda i den kokta pastan när den har 2 minuter kvar enligt förpackningen och låt koka klart i såsen.', 'Servera toppat med parmesanost och en bra olivolja']
   },
   {
     id: 'bouillabaisse',
