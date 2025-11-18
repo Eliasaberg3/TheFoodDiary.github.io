@@ -30,7 +30,7 @@ const recipes = [
     steps: ['Fräs vitlök och chili i olivolja.', 'Tillsätt tomatpuré och låt fräsa. Under tiden, koka upp pastavatten och lägg i pastan', 'Tillsätt vitt vin till de stekta ingredienserna och låt reducera. Tillsätt därefter en skvätt grädde.', ' Blanda i den kokta pastan när den har 2 minuter kvar enligt förpackningen och låt koka klart i såsen.', 'Servera toppat med parmesanost och en bra olivolja']
   },
   {
-    id: 'Risotto-a-la-Pollo',
+    id: 'risotto-a-la-Pollo',
     title: 'Risotto a la Pollo',
     subtitle: 'Creamy risotto with chicken thigh fillet',
   img: 'assets/kycklingrisotto.jpg',
@@ -124,7 +124,7 @@ const translations = {
   en: {
     searchPlaceholder: "Search recipes, e.g. 'ratatouille'",
     searchAria: 'Search recipes',
-    heroTitle: 'Recipes to savor',
+    heroTitle: 'Recepies from all over the world',
     heroSub: 'Browse, search and click a recipe for ingredients and description.',
     view: 'View',
     learn: 'Learn',
@@ -136,7 +136,7 @@ const translations = {
   sv: {
     searchPlaceholder: "Sök recept, t.ex. 'ravioli'",
     searchAria: 'Sök recept',
-    heroTitle: 'Recept att njuta av',
+    heroTitle: 'Recept från alla världens hörn',
     heroSub: 'Bläddra, sök och klicka på ett recept för ingredienser och beskrivning.',
     view: 'Visa',
     learn: 'Läs mer',
