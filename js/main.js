@@ -30,14 +30,14 @@ const recipes = [
     steps: ['Fräs vitlök och chili i olivolja.', 'Tillsätt tomatpuré och låt fräsa. Under tiden, koka upp pastavatten och lägg i pastan', 'Tillsätt vitt vin till de stekta ingredienserna och låt reducera. Tillsätt därefter en skvätt grädde.', ' Blanda i den kokta pastan när den har 2 minuter kvar enligt förpackningen och låt koka klart i såsen.', 'Servera toppat med parmesanost och en bra olivolja']
   },
   {
-    id: 'bouillabaisse',
-    title: 'Bouillabaisse (simplified)',
-    subtitle: 'Fish stew from Marseille',
-  img: 'assets/bouillabaisse.svg',
-    time: '50m',
+    id: 'Risotto-a-la-Pollo',
+    title: 'Risotto a la Pollo',
+    subtitle: 'Creamy risotto with chicken thigh fillet',
+  img: 'assets/kycklingrisotto.jpg',
+    time: '45m',
     servings: '4',
-    ingredients: ['500g mixed fish pieces', '1 fennel bulb', '2 tomatoes', '1 leek', 'fish stock', 'saffron', 'olive oil', 'salt & pepper'],
-    steps: ['Sauté vegetables until soft.', 'Add tomatoes and stock, simmer 20 minutes.', 'Add fish and cook gently 6-8 minutes.', 'Serve with crusty bread and rouille if desired.']
+    ingredients: ['3 dl risottoris', '2 vitlökar', '1 zuccini', '1 tsk chiliflakes', '2 tärningar kycklingbuljong löst i 1l vatten', 'parmesanost', '1 citron','en bra olivolja'],
+    steps: ['Bryn kycklinglårfiléerna i en stor panna eller gjutgjärnsgryta på hög värme. När de fått färg, lägg i en panna för att gå klart i ugnen på 150 grader', 'I samma gryta som kycklingen stektes, fräs vitlök och chili i olja och tillsätt riset. När riset är glansigt, addera 2-3 dl vitt vin. låt reducera.', 'Addera buljong efterhand som vätskan kokar bort, och fortsätt till riset mjuknat men har kvar lite kärna.', 'Avsluta risotton med att addera en näve parmesanost och färskpressad citron efter smak.', 'Ta ut kycklingen när den nått 80 grader i innertemperatur, låt vila någa minuter innan uppskärning.']
   }
 ];
 
@@ -125,7 +125,7 @@ const translations = {
     searchPlaceholder: "Search recipes, e.g. 'ratatouille'",
     searchAria: 'Search recipes',
     heroTitle: 'Recipes to savor',
-    heroSub: 'Classic and seasonal dishes crafted simply. Browse, search and click a recipe for details.',
+    heroSub: 'Browse, search and click a recipe for ingredients and description.',
     view: 'View',
     learn: 'Learn',
     serves: 'Serves',
@@ -137,7 +137,7 @@ const translations = {
     searchPlaceholder: "Sök recept, t.ex. 'ravioli'",
     searchAria: 'Sök recept',
     heroTitle: 'Recept att njuta av',
-    heroSub: 'Klassiska och säsongsbetonade rätter skapade enkelt. Bläddra, sök och klicka på ett recept för detaljer.',
+    heroSub: 'Bläddra, sök och klicka på ett recept för ingredienser och beskrivning.',
     view: 'Visa',
     learn: 'Läs mer',
     serves: 'Portioner',
